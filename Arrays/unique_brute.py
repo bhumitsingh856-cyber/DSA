@@ -1,5 +1,5 @@
 def unique(arr):
-    a={};
+    a={}
     for i in arr:
         if(i not in a):
             a[i]=1
