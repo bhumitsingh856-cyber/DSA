@@ -11,4 +11,4 @@ def binarySearch(arr,target):
             end=mid-1
     return -1
 
-print(binarySearch([1,2,3,4,5],3))        
+print(binarySearch([-1,0,3,5,9,12],13 ))        
