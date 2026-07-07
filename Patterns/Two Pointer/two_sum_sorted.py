@@ -1,7 +1,14 @@
+def is_sorted(arr):
+    for i in range(len(arr)-1):
+        if(not arr[i]<=arr[i+1]):
+            return False
+    return True                
+
 def two_sum(arr, target):
     if len(arr) == 0:
         return [-1, -1]
-
+    if(not is_sorted(arr)):
+        return [-1,-1]
     ptr1 = 0
     ptr2 = len(arr) - 1
     while ptr1 < ptr2:
@@ -13,5 +20,4 @@ def two_sum(arr, target):
             ptr2 -= 1
     return [-1, -1]
 
-
-print(two_sum([1, 2, 3, 4, -5], -3))
+print(two_sum([1, 2, 3, 4, 4], 8))
