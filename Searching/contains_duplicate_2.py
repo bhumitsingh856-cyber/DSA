@@ -6,4 +6,4 @@ def contains(arr):
     for i in d:
         print(d[i])
 
-contains([1,2,3,1])
+contains([1,2,3,1]) 
