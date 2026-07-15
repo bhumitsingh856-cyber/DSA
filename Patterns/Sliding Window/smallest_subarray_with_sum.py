@@ -16,4 +16,4 @@ def smallest_subarray(arr, k):
     return min_len if min_len != float("inf") else 0
 
 
-print(smallest_subarray([2, 3, 1, 2, 4, 3], 7))
+print(smallest_subarray([2,3,1,2,4,3], 7))
