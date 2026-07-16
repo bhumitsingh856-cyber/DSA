@@ -1,4 +1,4 @@
-
+# Strin difference in sorted strings
 def diff(s, t):
     for i in range(len(s)):
         if s[i] != t[i]:
