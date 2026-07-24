@@ -16,5 +16,4 @@ def even(arr):
         i += 1
     return count
 
-
 print(even([12, 345, 2, 6, 7896]))
