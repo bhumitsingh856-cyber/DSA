@@ -3,6 +3,11 @@ class Node:
         self.val = val
         self.next = None
 
+def display(head):
+    curr = head
+    while curr:
+        print(curr.val, end=" ")
+        curr = curr.next
 
 class LinkedList:
     def __init__(self):
