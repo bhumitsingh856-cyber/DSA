@@ -11,8 +11,6 @@ def game(arr):
         else:
             stack.append(int(i))
     return sum(stack)
-
-
 print(game(["5", "2", "C", "D", "+"]))
 print(game(["1", "C"]))
 print(game(["5", "-2", "4", "C", "D", "9", "+", "+"]))
